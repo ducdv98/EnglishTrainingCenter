@@ -199,7 +199,8 @@ public class MainForm extends javax.swing.JFrame {
         lblUsername.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/asset/User.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/asset/Male User_100px.png"))); // NOI18N
+        jLabel3.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         lblName.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         lblName.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -801,7 +802,7 @@ public class MainForm extends javax.swing.JFrame {
         panelMain.removeAll();
         panelMain.repaint();
         panelMain.revalidate();
-        panelMain.add(panelCourses);
+        panelMain.add(new StatisticsForm());
         panelMain.repaint();
         panelMain.revalidate();
     }//GEN-LAST:event_btnStatisticsActionPerformed
